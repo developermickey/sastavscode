@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Gilroy;
+    box-sizing: border-box;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+#main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  
+}
+#main .left {
+  width: 25%;
+  height: 100%;
+  background-color: #091440;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+#main .left .folder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#main .left .folder h1 {
+  font-size: 20px;
+  color: #fff;
+}
+#main .left .folder .iconsF {
+  display: flex;
+  gap: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+  color: #fff;
+}
+
+#main .left #file {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  gap: 16px;
+  flex-direction: column;
+}
+#main .left #file h4{
+  font-size: 14px;
+}
+
+#main .left #file .iconsFile {
+  display: none;
+  gap: 10px;
+  padding-right: 10px;
+  font-size: 14px;
+  color: #fff;
+}
+#main .left #file:hover .iconsFile{
+  display: flex;
+} 
+
+#main .right {
+  width: 75%;
+  height: 100%;
+  background-color: #adadad;
+  position: relative;
+}
+#main .right .tab {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 12%;
+  height: 40px;
+  padding: 10px;
+  background-color: #fff;
+  
+}
+#main .right h6 {
+  font-size: 20px;
+  color: #3f3f3f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
